@@ -21,9 +21,25 @@ public class Main {
 //        System.out.println(hashMap.get("first value"));
         Classroom classroom = new Classroom("ITT", 4, 30);
         classroom.getStudents().put("Az-31038", new Student("Pietro", "Chioda", 3333333));
-
+        classroom.getStudents().put("SADFDSA", new Student("gio", "sos", 214134));
+        classroom.getStudents().put("test", null);
         System.out.println(classroom.getStudents().get("Az-31038").getName());
+        System.out.println(classroom.getStudents().get("SADFDSA").getClass());
+        System.out.println(classroom.toString());
+        System.out.println(classroom.getStudents().clone());
+        System.out.println(classroom.getStudents().clone().getClass());
+        Class c=new Class();
+        c.print();
+    }
 
+}
+class Class{
+    private String s;
+    public Class(){
+        s="IKKE PLAG MEG";
+    }
+    public void  print(){
+        System.out.println(s);
     }
 }
 

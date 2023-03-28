@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f8342a82-9bcb-4b70-aa36-1d467a0a73af" name="Changes" comment="few tests and notes about hashmaps">
-      <change afterPath="$PROJECT_DIR$/src/Main/Classroom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main/Student.java" afterDir="false" />
+    <list default="true" id="f8342a82-9bcb-4b70-aa36-1d467a0a73af" name="Changes" comment="i just moved the things">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utilities/Classroom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utilities/Classroom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utilities/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utilities/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +34,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
   <component name="RunManager">
@@ -73,7 +74,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679985835127</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="student and classroom class">
+      <created>1679987514887</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679987514887</updated>
+    </task>
+    <task id="LOCAL-00003" summary="i just moved the things">
+      <created>1679987578332</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679987578332</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -89,6 +104,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="few tests and notes about hashmaps" />
-    <option name="LAST_COMMIT_MESSAGE" value="few tests and notes about hashmaps" />
+    <MESSAGE value="student and classroom class" />
+    <MESSAGE value="i just moved the things" />
+    <option name="LAST_COMMIT_MESSAGE" value="i just moved the things" />
   </component>
 </project>

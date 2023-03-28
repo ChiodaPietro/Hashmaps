@@ -18,4 +18,9 @@ public class Student {
     public int getNumber(){
         return number;
     }
+
+    @Override
+    public String toString() {
+        return "name: "+name+" surname: "+ surname+" number: "+number;
+    }
 }

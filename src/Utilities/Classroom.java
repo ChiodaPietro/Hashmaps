@@ -21,4 +21,22 @@ public class Classroom {
     public HashMap<String, Student> getStudents(){
         return map;
     }
+    @Override
+    public String toString(){
+        if(!map.isEmpty()) {
+            StringBuilder str = new StringBuilder();
+            str.append("section: "+ section+" grade: "+high_school_grade);
+            str.append("\n");
+            for (String item : map.keySet()) {
+                try {
+                    str.append(map.get(item).toString());
+                    str.append("\n");
+                } catch (NullPointerException e) {
+                    System.out.println("there is an item with value to null");
+                }
+            }
+            return str.toString();
+        }
+        return null;
+    }
 }
