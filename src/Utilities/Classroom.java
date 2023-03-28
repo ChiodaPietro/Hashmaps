@@ -1,10 +1,8 @@
-package Main;
-
-import Main.Student;
+package Utilities;
 
 import java.util.HashMap;
 
-class Classroom {
+public class Classroom {
     private String section;
     private int high_school_grade;
     private HashMap<String, Student> map;
